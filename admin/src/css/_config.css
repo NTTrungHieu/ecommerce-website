@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 1rem;
+  margin: 0;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--color-base-text);
+  background: var(--background-color);
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+
+.ant-input:hover,
+.ant-input:focus,
+.ant-input:focus-within,
+.ant-input-password:hover,
+.ant-input-password:focus,
+.ant-input-password:focus-within {
+  border-color: var(--primary-color);
+  box-shadow: none;
+}
+
+.ant-select:hover > .ant-select-selector,
+.ant-select.ant-select-open > .ant-select-selector {
+  border-color: var(--primary-color) !important;
+}
+
+.ant-form-item-required {
+  font-size: 14px;
+  font-weight: 500;
+  flex-direction: row-reverse;
+  gap: 4px;
+}
+
+.ant-form-item-required::after {
+  display: none;
+}
+
+.ant-table-footer {
+  padding: 0 !important;
+}
+
+::selection {
+  background-color: var(--primary-color) !important;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
+
+a:hover {
+  color: currentColor;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: inherit;
+}
+
+.form-floating .form-control {
+  border: none;
+  font-size: 14px;
+}
+
+.form-select {
+  cursor: pointer;
+}
+
+.form-select:focus {
+  box-shadow: inherit !important;
+  border-color: inherit !important;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.sticky-top {
+  z-index: 999;
+}
+
+.ql-editor {
+  overflow-y: auto;
+}

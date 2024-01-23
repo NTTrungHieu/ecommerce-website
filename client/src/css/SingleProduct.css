@@ -1,0 +1,144 @@
+.product-single>.title{
+  display: block;
+  padding: 0 0 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: var(--color-text-2);
+  font-size: 26px;
+  border-radius: 0;
+  letter-spacing: 0;
+  line-height: 35px;
+}
+
+.product-single .body{
+  padding: 30px;
+}
+
+.product-detail .title {
+  word-break: break-word;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--color-text-2);
+  margin: 0 0 10px;
+  line-height: 26px;
+  padding: 0 0 10px;
+}
+
+.product-detail .price {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20px;
+  color: var(--color-text-2);
+}
+
+.product-detail .write-review {
+  margin: 10px 0;
+  padding: 0 0 10px;
+}
+
+.product-detail .content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.product-detail .content label {
+  color: var(--color-text-2);
+  font-size: 14px;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+}
+
+.product-detail .content > div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.product-detail .content span {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.product-detail .content ul {
+  margin-bottom: 0;
+}
+
+.product-detail .content .color li {
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.product-detail .content .color li.active,
+.product-detail .content .color li:hover {
+  border-color: var(--border-color);
+  box-shadow: inset 0 0 0 4px #fff;
+}
+
+.product-detail .content .size div {
+  padding: 5px 15px;
+  border: 1px solid var(--border-color-2);
+  cursor: pointer;
+}
+
+.product-detail .content .quantity span {
+  gap: 0;
+}
+
+.product-detail .content .quantity input {
+  border-color: var(--border-color-2);
+  box-shadow: none;
+  width: 50%;
+}
+
+.product-detail .content .quantity input:hover,
+.product-detail .content .quantity input:focus {
+  border-color: var(--border-color);
+}
+
+.product-detail .content .quantity .quantity-action div {
+  border: 1px solid var(--border-color-2);
+  width: 25px;
+  height: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.product-detail .content .quantity .quantity-action svg {
+  font-size: 16px;
+}
+
+.product-detail .content .size .active,
+.product-detail .content .quantity .quantity-action div:hover,
+.product-detail .content .size div:hover {
+  border-color: var(--border-color);
+}
+
+.product-detail .content .action{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.product-detail .content .action>div{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--color-text-2);
+  cursor: pointer;
+  user-select: none;
+}
+
+.product-detail .purchase-details label{
+  font-size: 17px;
+  margin-top: 15px;
+}
+
+.reviews {
+  padding: 13px 0;
+}

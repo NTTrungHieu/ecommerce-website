@@ -1,0 +1,26 @@
+.contact-info{
+  padding: 30px;
+}
+
+.contact-info .contact-title {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 35px;
+  color: var(--color-text-2);
+  letter-spacing: 0;
+}
+
+.contact-info .form-floating .form-control {
+  width: 100%;
+}
+
+.contact-info .form-floating textarea.form-control {
+  min-height: 100px;
+  resize: none;
+}
+
+.contact-info .button {
+  width: fit-content;
+  font-size: 14px;
+  padding: 10px 30px;
+}

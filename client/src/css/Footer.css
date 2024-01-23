@@ -1,0 +1,13 @@
+.footer {
+  background-color: var(--menu-color);
+}
+
+.footer:not(:first-of-type) {
+  border-top: 1px solid var(--border-color);
+}
+
+.footer .input-group-text {
+  cursor: pointer;
+  background-color: var(--menu-color);
+  padding: 8px 17px;
+}

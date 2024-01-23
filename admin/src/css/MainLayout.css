@@ -1,0 +1,8 @@
+.site-layout .side-menu svg{
+  font-size: 24px!important;
+}
+
+.site-layout .ant-layout-sider-collapsed .ant-menu-item,
+.site-layout .ant-layout-sider-collapsed .ant-menu-submenu-title {
+  padding: 0 24px!important;  
+}

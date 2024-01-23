@@ -1,0 +1,15 @@
+:root {
+  /* standard color */
+  --primary-color: #131921;
+  --secondary-color: #ffd333;
+  --border-color: #3b4149;
+  --border-color-2: #eaeaea;
+  --background-color: #f5f7fa;
+  
+  /* text color */
+  --color-base-text: #212529;
+  --color-secondary-text: #828f99;
+
+  /* ant variables */
+  --ant-color-primary-hover: #131921;
+}

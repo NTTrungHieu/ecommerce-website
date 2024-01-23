@@ -1,0 +1,39 @@
+.login {
+  background-color: var(--secondary-color);
+  height: 100vh;
+}
+
+.login>div {
+  width: 100%;
+  max-width: 400px;
+}
+
+.login .ant-form-item:last-child{
+  margin-bottom: 0!important;
+}
+
+.login .login-form-forgot {
+  float: right;
+}
+
+.login .ant-col-rtl .login-form-forgot {
+  float: left;
+}
+
+.login .login-form-button {
+  width: 100%;
+  background-color: var(--secondary-color);
+  color: black;
+  font-weight: 500;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px;
+  height: auto;
+}
+
+.login .login-form-button:hover {
+  border-color: var(--primary-color)!important;
+  color: var(--primary-color)!important;
+}

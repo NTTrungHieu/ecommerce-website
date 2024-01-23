@@ -1,0 +1,160 @@
+/* gap */
+.gap-10 {
+  gap: 10px;
+}
+
+.gap-15 {
+  gap: 15px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.gap-30 {
+  gap: 30px;
+}
+/* end gap */
+
+.button {
+  background-color: var(--btn-color-2);
+  color: white;
+  font-size: 14px;
+  padding: 10px 30px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--btn-color-1);
+  color: var(--primary-color);
+}
+
+.button-reverse {
+  color: var(--primary-color);
+  background-color: var(--btn-color-1);
+}
+
+.button-reverse:hover {
+  color: white;
+  background-color: var(--btn-color-2);
+}
+
+.button-transparent {
+  color: var(--primary-color);
+  background-color: transparent;
+}
+
+.button-transparent:hover {
+  background-color: #ccc;
+}
+
+.border-hover {
+  border: 1px solid var(--border-color-2);
+}
+
+.border-hover:hover {
+  border: 1px solid var(--border-color);
+}
+
+.card-wrapper {
+  background-color: #fff;
+  padding: 15px;
+  box-shadow: 0 0 10px #0000001a;
+}
+
+.card-shadow {
+  border-radius: 10px;
+  box-shadow: 0 0 10px #0000001a;
+}
+
+.text-ellipsis {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+  width: fit-content;
+}
+
+.price {
+  font-size: 16px;
+  color: var(--color-text-2);
+  line-height: 20px;
+  margin-bottom: 12px;
+  display: flex;
+  gap: 10px;
+}
+
+.price .red-price {
+  color: #e02b40;
+}
+
+.price strike {
+  font-size: 13px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-hover:hover {
+  color: var(--secondary-color) !important;
+}
+
+.hover-rotate img{
+  transition: all 400ms ease-in-out 0s;
+}
+
+.hover-rotate:hover img {
+  transform: rotateY( 360deg );
+  -webkit-transform: rotateY( 360deg );
+}
+
+.category-active {
+  color: var(--secondary-color);
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* font-size */
+.fs-12 {
+  font-size: 12px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-15 {
+  font-size: 15px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.fs-17 {
+  font-size: 17px;
+}
+/* end font-size */
+
+/* font-weight */
+.fw-600 {
+  font-weight: 600;
+}
+/* end font-weight */
+
+/* width */
+.w-fc {
+  width: fit-content;
+}
+/* end width */
+
+/* text */
+
+.text-primary {
+  color: var(--text-primary) !important;
+}
+
+.text-active:active {
+  background-color: var(--primary-color) !important;
+}
+/* end text */

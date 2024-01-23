@@ -1,0 +1,23 @@
+:root {
+  /* standard color */
+  --primary-color: #131921;
+  --secondary-color: #febd69;
+  --border-color: #3b4149;
+  --border-color-2: #eaeaea;
+  --background-color: #f5f5f7;
+  
+  /* text color */
+  --text-primary: #1c1c1b;
+  --color-base-text: #777777;
+  --color-text-1: #bf4800;
+  --color-text-2: #1c1c1b;
+  --color-text-3: #febd69;
+  --color-text-4: #ebebeb;
+
+  /* component color */
+  --menu-color: #232f3e;
+
+  /* button color */
+  --btn-color-1: #febd69;
+  --btn-color-2: #232f3e;
+}

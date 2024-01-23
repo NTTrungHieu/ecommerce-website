@@ -1,0 +1,211 @@
+.filter-card {
+  padding: 16px;
+}
+
+.filter-title {
+  color: var(--color-text-2);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: capitalize;
+  letter-spacing: 0.8px;
+  margin-bottom: 20px;
+}
+
+.filter-card li {
+  color: var(--color-base-text);
+  cursor: pointer;
+}
+
+.filter-card li:hover {
+  color: var(--color-text-2);
+  cursor: pointer;
+}
+
+.filter-subtitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text-2);
+  line-height: 28px;
+}
+
+.filter-card .form-check-input {
+  cursor: pointer;
+  background-color: #fff;
+  color: var(--color-base-text);
+  border-color: currentColor;
+  padding: 7px;
+}
+
+.filter-card .form-check-input:focus,
+.filter-card .form-check-input:checked {
+  box-shadow: none;
+  border-color: currentColor;
+}
+
+.filter-card .form-check-input:checked {
+  background-color: currentColor;
+}
+
+.filter-card .form-check-label {
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.filter-card .form-floating {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.filter-card .form-floating .form-control {
+  height: 40px;
+  padding: 15px;
+  line-height: 24px;
+}
+
+.filter-card .form-control:focus,
+.filter-card .form-control:not(:placeholder-shown),
+.filter-card .form-control:-webkit-autofill,
+.customer .field input:focus,
+.customer .field input:not(:placeholder-shown),
+.customer .field input:-webkit-autofill {
+  padding: 24px 15px 8px;
+}
+
+.filter-card .form-floating label {
+  font-size: 12px;
+  top: 10px;
+  left: 21px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  padding: 0;
+  height: fit-content;
+  transition: top 0.1s ease, font-size 0.1s ease;
+}
+
+.filter-colors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+.filter-colors li {
+  --w: 27px;
+  background-color: currentColor;
+  border: 2px solid;
+  border-radius: 50%;
+  width: var(--w);
+  height: var(--w);
+  margin-right: 3px;
+}
+
+.filter-colors li:hover {
+  border: 2px solid black;
+}
+
+.filter-colors li.active {
+  border: 2px solid black;
+  box-shadow: inset 0 0 0 4px #fff;
+}
+
+.filter-card .product-tags li {
+  padding: 9px 10px;
+  border-radius: 5px;
+  background-color: var(--color-text-4);
+  line-height: 20px;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.filter-card .random-products li {
+  color: var(--color-text-2);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.filter-card .random-products li:not(:last-child) {
+  border-bottom: 1px solid var(--color-text-4);
+}
+
+.filter-sort-grid {
+  padding: 10px;
+}
+
+.filter-sort-grid .sortby {
+  color: var(--color-text-2);
+  font-size: 14px;
+}
+
+.filter-sort-grid .form-select {
+  border: none;
+  cursor: pointer;
+  color: var(--color-base-text);
+}
+
+.filter-sort-grid .grid div {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px !important;
+  transition: background 0.25s ease, fill 0.25s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.filter-sort-grid .grid .active {
+  border: 3px solid var(--btn-color-2);
+}
+
+.filter-sort-grid .grid img {
+  width: 14px;
+  height: 14px;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(var(--amount-column), 1fr);
+  /* grid-template-columns: repeat(5, 1fr); */
+  gap: 20px;
+}
+
+.custom-pagination {
+  margin: 0;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 15px;
+  width: fit-content;
+  gap: 10px;
+  align-items: center;
+  justify-content: end;
+}
+
+.custom-pagination li a {
+  border-radius: 7px;
+  padding: 0.1rem 1rem;
+  border: gray 1px solid;
+  cursor: pointer;
+}
+.custom-pagination li.previous a,
+.custom-pagination li.next a,
+.custom-pagination li.break a {
+  border-color: transparent;
+}
+.custom-pagination li.active a {
+  background-color: #0366d6;
+  border-color: transparent;
+  color: white;
+  min-width: 32px;
+}
+.custom-pagination li.disabled a {
+  color: grey;
+}
+.custom-pagination li.disable,
+.custom-pagination li.disabled a {
+  cursor: default;
+}

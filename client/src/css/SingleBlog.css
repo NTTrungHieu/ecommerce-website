@@ -1,0 +1,16 @@
+.single-blog-content .title{
+  font-weight: 600;
+}
+
+.single-blog-content .image img{
+  object-fit: cover;
+}
+
+.single-blog-content .time{
+  border-right: 2px solid var(--border-color-2);
+}
+
+.single-blog-wrapper .back{
+  border-top: 2px solid var(--border-color-2);
+  border-bottom: 2px solid var(--border-color-2);
+}
