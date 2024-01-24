@@ -2,10 +2,10 @@
 MERN stacks + Redux Toolkit
 
 Admin: https://admin-hieseu-shop.onrender.com
-<li>React, Redux Toolkit, Ant Design</li>
+- React, Redux Toolkit, Ant Design
 
 Client: https://hieseu-shop.onrender.com
-<li>React, Redux Toolkit, Bootstrap 5</li>
+- React, Redux Toolkit, Bootstrap 5
 
 Server: Express.js<br>
 Database: MongoDB
